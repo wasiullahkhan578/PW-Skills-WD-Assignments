@@ -1,0 +1,11 @@
+/* External CSS */
+
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(238, 13, 193);
+}
+
+paragraph{
+    background-color: green; /* target the same elements with inline, internal, and external CSS. */
+}
