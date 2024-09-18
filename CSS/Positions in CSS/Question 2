@@ -1,0 +1,15 @@
+Absolute Positioning-
+position: absolute; is used to position an element relative to its nearest positioned ancestor. If no such ancestor exists, it positions relative to the initial containing block (often the <html> element).
+
+Characteristics:
+Removed from Document Flow: An absolutely positioned element is removed from the normal document flow, meaning it doesn’t affect the position of other elements.
+Positioned Precisely: You can use top, right, bottom, and left properties to specify the exact position of the element relative to its containing block.
+No Space Reserved: Since it’s removed from the flow, other elements will not reserve space for it.
+
+Relative Positioning-
+position: relative; is used to position an element relative to its normal position in the document flow. It maintains its place in the flow of the document, but you can move it relative to where it would normally be.
+
+Characteristics:
+Document Flow Maintained: A relatively positioned element still occupies space in the document flow, and other elements will adjust around it.
+Offset Adjustments: You can use top, right, bottom, and left to adjust its position from where it would normally be, without removing it from the flow.
+Space Reserved: The space it originally occupied is still reserved even if it’s visually shifted.
