@@ -1,0 +1,14 @@
+1. justify-content-
+    This property aligns the flex items along the main axis (horizontal by default). It helps distribute extra space when the items do not use up all the available space in the container.
+
+2. align-items-
+    This property aligns the flex items along the cross axis (vertical by default). It determines how the items are aligned within the flex container. 
+
+3. gap-
+    This property defines the space between flex items. It is useful for creating consistent spacing without using margins.
+
+4. flex-direction-
+    This property defines the direction in which the flex items are placed in the flex container. 
+
+5. flex-wrap-
+    This property controls whether the flex items should wrap or not when they overflow the container. 
