@@ -1,0 +1,77 @@
+body {
+    font-family:  'Arial Narrow Bold', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.pricing-plans {
+    display: flex;
+    gap: 20px;
+    
+    
+}
+
+.plan {
+    text-align: left;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.plan h2 {
+    margin-top: 0;
+}
+
+.plan .price {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.plan ul {
+    list-style: none;
+    padding: 0;
+}
+
+.plan ul li {
+    margin: 10px 0;
+}
+
+.plan button {
+    background-color: #007bff;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.free-plan button{
+    background-color: rgb(78, 74, 135);
+}
+.basic-plan button{
+    background-color:#fff
+}
+.pro-plan button{
+    background-color: rgb(78, 74, 135);
+}
+.plan button:hover {
+    background-color: #0056b3;
+}
+
+.free-plan {
+    background-color: #f9f9f9;
+}
+
+.basic-plan {
+    background-color: rgb(78, 74, 135);
+}
+
+.pro-plan {
+    background-color: #dee2e6;
+}
