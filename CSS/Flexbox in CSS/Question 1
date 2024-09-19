@@ -29,6 +29,6 @@ Alignment Needs: It’s great for scenarios where you need to align items or dis
 When to Use Grid-
 
 
-Complex Layouts: Use Grid for more complex, two-dimensional layouts where you need to control both rows and columns.
+Complex Layouts: Use Grid for more complex, two-dimensional layouts where you need to control both rows and  columns.
 
 Grid-Based Designs: It’s ideal for grid-based designs like photo galleries, dashboards, or any layout that requires precise item placement.
