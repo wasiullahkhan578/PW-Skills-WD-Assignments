@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 3</title>
+    <style>
+        .container {
+            height: 80vh;
+            display: grid;
+            row-gap: 3px;
+            column-gap: 3px;
+            grid-template-areas:
+                'ONE ONE TWO'
+                'THREE FOUR TWO';
+            grid-auto-rows: minmax(100px, auto);
+            grid-auto-columns: minmax(100px, auto);
+        }
+        .one {
+            grid-area: ONE;
+            background-color: bisque;
+            border-radius: 3px;
+        }
+        .two {
+            grid-area: TWO;
+            background-color: bisque;
+            border-radius: 3px;
+        }
+        .three {
+            grid-area: THREE;
+            background-color: bisque;
+            border-radius: 3px;
+        }
+        .four {
+            grid-area: FOUR;
+            background-color: bisque;
+            border-radius: 3px;
+        }
+        .extra {
+            background-color: lightgreen;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="one">A</div>
+        <div class="two">B</div>
+        <div class="three">C</div>
+        <div class="four">D</div>
+        <div class="extra">E</div>
+        <div class="extra">F</div>
+    </div>
+</body>
+</html>
