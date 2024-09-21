@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 5</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            display: flex;
+            height: 100vh;
+        }
+
+        .box1, .box4 {
+            flex-basis: 10%;
+            background-color: rgb(42, 42, 42);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+
+        .content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .box2, .box3 {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+
+        .box2 {
+            background-color: rgb(69, 160, 69);
+        }
+
+        .box3 {
+            background-color: rgb(238, 154, 19);
+        }
+        
+        /* Media Query for Mobile Screens */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                height: auto;
+            }
+
+            .box1, .box4 {
+                flex-basis: auto;
+                width: 100%;
+                height: 40px;
+            }
+
+            .box1 {
+                order: 0;
+            }
+
+            .box2 {
+                order: 2;
+                height: auto;
+            }
+
+            .box3 {
+                order: 3;
+                height: 300px;
+            }
+
+            .box4 {
+                order: 99;
+                height: 40px;
+                display: flex;
+                align-items: flex-end;
+            }
+
+            .content {
+                flex-direction: column;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">Box1</div>
+        <div class="content">
+            <div class="box2">Box2</div>
+            <div class="box3">Box3</div>
+        </div>
+        <div class="box4">Box4</div>
+    </div>
+</body>
+</html>
